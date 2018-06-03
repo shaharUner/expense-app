@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test
+  C:\Program Files\nodejs\node.exe C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run server
 
 PATH: 
-  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32\python.ece;;C:\WINDOWS\System32\OpenSSH\;C:\Users\shahar\AppData\Local\atom\bin;C:\Users\shahar\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+  C:\Users\shahar\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\shahar\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32\python.ece;C:\WINDOWS\System32\OpenSSH;C:\Users\shahar\AppData\Local\atom\bin;C:\Users\shahar\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
   1.5.1
@@ -18,7 +18,7 @@ npm manifest:
     "name": "expensify",
     "version": "1.0.0",
     "main": "index.js",
-    "author": "Andrew Mead",
+    "author": "Shahar Uner",
     "license": "MIT",
     "scripts": {
       "build:dev": "webpack",
@@ -5711,17 +5711,14 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: Command failed.
-  Exit code: 1
-  Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c jest --config=jest.config.json
-  Directory: C:\Users\shahar\Documents\project\react-learning-projects\expense-app-v2
-  Output:
-  
-      at ProcessTermError.MessageError (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
-      at new ProcessTermError (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:226:113)
-      at ChildProcess.<anonymous> (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:30281:17)
-      at emitTwo (events.js:126:13)
-      at ChildProcess.emit (events.js:214:7)
-      at maybeClose (internal/child_process.js:925:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+  Error: Command "server" not found. Did you mean "semver"?
+      at new MessageError (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87307:17
+      at Generator.next (<anonymous>)
+      at step (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:23451:28)
+      at C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:95:12
+      at runCommand (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87312:22)
+      at Object.<anonymous> (C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87412:14)
