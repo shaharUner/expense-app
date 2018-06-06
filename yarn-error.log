@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test --watch
+  C:\Program Files\nodejs\node.exe C:\Users\shahar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js build:prod
 
 PATH: 
-  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32\python.ece;;C:\WINDOWS\System32\OpenSSH\;C:\Users\shahar\AppData\Local\atom\bin;C:\Users\shahar\AppData\Roaming\npm;C:\Users\shahar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin
+  C:\Users\shahar\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\shahar\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32;C:\Users\shahar\AppData\Local\Programs\Python\Python36-32\python.ece;C:\WINDOWS\System32\OpenSSH;C:\Users\shahar\AppData\Local\atom\bin;C:\Users\shahar\AppData\Roaming\npm;C:\Users\shahar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
   1.5.1
@@ -5759,7 +5759,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c cross-env NODE_ENV=test jest --config=jest.config.json --watch
+  Arguments: /d /s /c webpack -p --env production
   Directory: C:\Users\shahar\Documents\project\react-learning-projects\expense-app-v2
   Output:
   
